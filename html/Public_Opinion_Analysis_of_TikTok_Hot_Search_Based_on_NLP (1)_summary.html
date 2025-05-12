@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Paper Digest</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #e6f0fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .poster {
+            width: 1242px;
+            height: 1660px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .header {
+            padding: 40px;
+            background: #e6f0fa;
+            text-align: left;
+        }
+        .header img {
+            width: 80px;
+            height: 80px;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+        .header h1 {
+            display: inline;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1a3c6e;
+        }
+        .header p {
+            font-size: 32px;
+            color: #1a3c6e;
+            margin-top: 10px;
+        }
+        .content {
+            flex: 1;
+            padding: 40px;
+            background: #ffffff;
+            color: #333;
+        }
+        .content .date {
+            font-size: 28px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .content h2 {
+            font-size: 56px;
+            font-weight: 700;
+            color: #1a3c6e;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 32px;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .buttons a {
+            padding: 10px 20px;
+            background: #e6f0fa;
+            color: #1a3c6e;
+            font-size: 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .buttons a:hover {
+            background: #d1e3f6;
+        }
+        .footer {
+            padding: 40px;
+            background: #ffffff;
+            border-top: 1px solid #e6f0fa;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer .left {
+            display: flex;
+            align-items: center;
+        }
+        .footer .left a {
+            font-size: 32px;
+            color: #1a3c6e;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .footer .left span {
+            font-size: 24px;
+            color: #666;
+        }
+        .footer .right img {
+            width: 120px;
+            height: 120px;
+        }
+        .bottom-bar {
+            padding: 20px;
+            background: #1a3c6e;
+            color: #ffffff;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <div class="header">
+            
+            <h1>学术海报</h1>
+            <p></p>
+        </div>
+        <div class="content">
+            <div class="date">2025年05月11日 20:10:06 星期日</div>
+            <h2>Public Opinion Analysis of TikTok Hot Search Based on <br>NLP (1)</h2>
+            <p>一项研究揭示了如何实时分析抖音热搜评论中的公众舆论。随着中国互联网用户数量的激增，理解在线舆论对现实社会的影响变得尤为重要。该研究利用网络爬虫技术抓取抖音热搜数据，紧接着应用自然语言处理（NLP）技术对评论进行情感分析。采用Jieba分词和TF-IDF算法，研究团队清洗和处理数据，从中识别出正面、中立和负面的情感态度。结果显示，不同地区对热搜的态度各异，且通过数据可视化，可以直观展示各省的舆论动向，从而有效监控并预防潜在的舆论危机。该方法旨在为更好地理解和管理网络舆论提供实用工具和数据支持。</p>
+            <div class="buttons">
+                <a href="#">原创行业观察</a>
+                <a href="#">学术推送</a>
+                <a href="#">深度</a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left">
+                <a href="#">星电报</a>
+                
+            </div>
+            <div class="right">
+               
+            </div>
+        </div>
+        <div class="bottom-bar">
+            上海理工大学出品
+        </div>
+    </div>
+</body>
+</html>

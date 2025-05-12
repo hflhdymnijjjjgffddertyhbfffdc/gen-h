@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Paper Digest</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #e6f0fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .poster {
+            width: 1242px;
+            height: 1660px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .header {
+            padding: 40px;
+            background: #e6f0fa;
+            text-align: left;
+        }
+        .header img {
+            width: 80px;
+            height: 80px;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+        .header h1 {
+            display: inline;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1a3c6e;
+        }
+        .header p {
+            font-size: 32px;
+            color: #1a3c6e;
+            margin-top: 10px;
+        }
+        .content {
+            flex: 1;
+            padding: 40px;
+            background: #ffffff;
+            color: #333;
+        }
+        .content .date {
+            font-size: 28px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .content h2 {
+            font-size: 56px;
+            font-weight: 700;
+            color: #1a3c6e;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 32px;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .buttons a {
+            padding: 10px 20px;
+            background: #e6f0fa;
+            color: #1a3c6e;
+            font-size: 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .buttons a:hover {
+            background: #d1e3f6;
+        }
+        .footer {
+            padding: 40px;
+            background: #ffffff;
+            border-top: 1px solid #e6f0fa;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer .left {
+            display: flex;
+            align-items: center;
+        }
+        .footer .left a {
+            font-size: 32px;
+            color: #1a3c6e;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .footer .left span {
+            font-size: 24px;
+            color: #666;
+        }
+        .footer .right img {
+            width: 120px;
+            height: 120px;
+        }
+        .bottom-bar {
+            padding: 20px;
+            background: #1a3c6e;
+            color: #ffffff;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <div class="header">
+            
+            <h1>学术海报</h1>
+            <p></p>
+        </div>
+        <div class="content">
+            <div class="date">2025年05月11日 20:10:20 星期日</div>
+            <h2>Transformer-Based Feature Fusion Approach for <br>Multimodal Visual Sentiment Recognition Using Tweets in the Wild</h2>
+            <p>在一项最新研究中，研究人员开发了一种基于变换器架构的实时多模态视觉情感识别系统，旨在解析社交媒体中的情感表达。该系统创新性地结合了面部图像、文本图像以及不包含面部或文本的图像，通过三种不同的模型提取各自的情感特征，并将这些特征融合，以增强在线情感分析能力。实验中，研究者利用全新的“领域无关多媒体情感数据集”（DFMSD）进行训练，同时运用了一种新提出的阈值移动方法，以有效应对社交网络数据中常见的数据不平衡问题。结果表明，采用阈值移动方法后，情感学习表现提升了5-8%。而通过引入两阶段培训策略后，整体准确率进一步提高了约12%。该研究展示了结合多种图像类型及先进的特征提取方法在促进社交媒体情感理解方面的显著潜力。未来，研究团队计划探索其他类型的特征，以进一步提高情感分析的准确性，并希望能将这一模型简化，以便在移动设备上实时应用。</p>
+            <div class="buttons">
+                <a href="#">原创行业观察</a>
+                <a href="#">学术推送</a>
+                <a href="#">深度</a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left">
+                <a href="#">星电报</a>
+                
+            </div>
+            <div class="right">
+               
+            </div>
+        </div>
+        <div class="bottom-bar">
+            上海理工大学出品
+        </div>
+    </div>
+</body>
+</html>
